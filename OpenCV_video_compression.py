@@ -47,7 +47,7 @@ def compress_video(video_path, filename, resizing_factor):
     if cap is None:
         return
 
-    video_dir = "D:\\VS CODE FILES\\OpenCV\\VIDEOS\\COMPRESSED VIDEOS"
+    video_dir = "VIDEOS/COMPRESSED_VIDEOS"
     os.makedirs(video_dir, exist_ok=True)
     output_path = os.path.join(video_dir, filename)
 
